@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Zombie Apocalapse Simulator - Test your skills</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <center>
+        <h1>Zombie Apocalapse Simulator - Test your skills</h1>
+        <br>
+        <h3>Important: This web UI shows you your vitals as you fight the zombies in the training simulator online.
+        <img src="body.png"style="width:500px;height:600px;padding:100px;">
+        </h3>
+    </center>
+    <div class="Vitals">
+        <h1>Vitals:</h1>
+        <h3>Health Meter:</h3>
+        <div id="health-bar-container">
+            <div id="health-bar"></div>
+        </div>
+
+        <h3>Hunger Meter:</h3>
+        <div id="hunger-bar-container">
+            <div id="hunger-bar"></div>
+        </div>
+        
+
+    </div>
+    <div class="chat">
+       
+        <div id="conversation">
+            <!-- <button onclick="sendMessage()">Send</button> -->
+        </div>
+        <p> Practice your problem solving skills by finding solutions to surviving the zombie apocalypse. </p>
+        <textarea id="input" placeholder="Type here..." style="width: 80%; margin-right: 10px"></textarea>
+    </div>
+    <script src="https://wizard-orpheus.hackclub.dev/wizard_orpheus.js"></script>
+    <script src="script.js"></script>
+</body>
